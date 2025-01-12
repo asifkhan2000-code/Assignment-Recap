@@ -117,7 +117,7 @@
 }
 .pillar-description {
     color: rgba(14, 14, 14, 0.7);
-    margin-bottom: 24px;
+    margin-bottom: 48px;
 }
 /* vision of future section styles */
 .vision {
@@ -205,4 +205,31 @@
 }
 .vision-btn3:hover {
     background-color: white;
+}
+/* quote section styles */
+.quote {
+    margin-right: 160px;
+    margin-left: 160px;
+    margin-bottom: 80px;
+}
+.quote-container {
+    background-color: white;
+    padding: 48px 24px;
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 64px 64px;
+}
+.quote-description {
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quoter {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.quoter-designation {
+    color: rgba(14, 14, 14, 0.6);
 }
